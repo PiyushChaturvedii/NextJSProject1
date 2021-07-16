@@ -1,4 +1,20 @@
 import React, { Component } from 'react';
+import Image from 'next/image';
+import logo from '../public/images/logo.png';
+import hero from '../public/images/hero.png';
+import about from '../public/images/about.png';
+import d1 from '../public/images/design/1.png';
+import g1 from '../public/images/figmaGallery/1.png';
+import g2 from '../public/images/figmaGallery/2.png';
+import g3 from '../public/images/figmaGallery/3.png';
+import g4 from '../public/images/figmaGallery/4.png';
+import g5 from '../public/images/figmaGallery/5.png';
+import g6 from '../public/images/figmaGallery/6.png';
+import g7 from '../public/images/figmaGallery/7.png';
+import g8 from '../public/images/figmaGallery/8.png';
+import g9 from '../public/images/figmaGallery/9.png';
+import coach from '../public/images/coach.png';
+
 export default class singlePage extends Component {
     render() {
         return (
@@ -9,7 +25,7 @@ export default class singlePage extends Component {
                             <div className="container">
                                 <div className="main-header">
                                     <a href="#" className="brand-logo">
-                                        <img src="images/logo.png" alt />
+                                        <Image src={logo} alt="logo" />
                                         <div className="brand-logo-name">
                                             Yoga <span>In.</span>
                                         </div>
@@ -52,7 +68,7 @@ export default class singlePage extends Component {
                                         </a>
                                     </div>
                                     <div className="lady-yoga">
-                                        <img src="images/hero.png" alt />
+                                        <Image src={hero} alt="hero" />
                                     </div>
                                 </div>
                             </div>
@@ -67,17 +83,17 @@ export default class singlePage extends Component {
                                         <p>
                                             Yoga is a mind and body practice with a 5,000- <br />
                                             year history in ancient Indian philosophy. Various <br />
-                                            styles ofyogacombinephysical postures, breathing <br />
+                                            styles of yoga combine physical postures, breathing <br />
                                             techniques, and meditation or relaxation.
                                         </p>
                                     </div>
-                                    <div className="about-img">
-                                        <img src="images/about.png" alt />
+                                    <div className="about-image">
+                                        <Image src={about} alt="about" />
                                     </div>
                                 </div>
                             </div>
                             <div className="bg-about">
-                                <img src="images/design/1.png" alt />
+                                <Image src={d1} alt="1" />
                             </div>
                         </section>
                         <section className="gallery" id="Gallery">
@@ -87,31 +103,31 @@ export default class singlePage extends Component {
                                 </h1>
                                 <div className="main-gallery">
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/1.png" alt />
+                                        <Image src={g1} alt="1" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/2.png" alt />
+                                        <Image src={g2} alt="2" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/3.png" alt />
+                                        <Image src={g3} alt="3" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/4.png" alt />
+                                        <Image src={g4} alt="4" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/5.png" alt />
+                                        <Image src={g5} alt="5" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/6.png" alt />
+                                        <Image src={g6} alt="6" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/7.png" alt />
+                                        <Image src={g7} alt="7" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/8.png" alt />
+                                        <Image src={g8} alt="8" />
                                     </div>
                                     <div className="image-wrapper">
-                                        <img src="images/figmaGallery/9.png" alt />
+                                        <Image src={g9} alt="9" />
                                     </div>
                                 </div>
                                 <div className="circle-gallery" />
@@ -120,8 +136,8 @@ export default class singlePage extends Component {
                         <section className="coach">
                             <div className="container">
                                 <div className="main-coach">
-                                    <div className="img-coach">
-                                        <img src="images/coach.png" alt />
+                                    <div className="image-coach">
+                                        <Image src={coach} alt="coach" />
                                     </div>
                                     <div className="description">
                                         <h1>
